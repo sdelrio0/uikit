@@ -9,3 +9,5 @@ node_modules
 ehthumbs.db
 Thumbs.db
 .ignore
+dist
+build

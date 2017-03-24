@@ -10,14 +10,14 @@ module.exports = {
   ],
   output: {
     filename: 'bundle.js',
-    path: resolve(__dirname, 'dist'),
+    path: resolve(__dirname, 'assets'),
     publicPath: '/'
   },
-  context: resolve(__dirname, 'src'),
+  context: resolve(__dirname, 'server'),
   devtool: 'inline-source-map',
   devServer: {
     hot: true,
-    contentBase: resolve(__dirname, 'dist'),
+    contentBase: resolve(__dirname, 'assets'),
     publicPath: '/',
   },
   module: {
