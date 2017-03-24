@@ -1,0 +1,9 @@
+{
+  "name": "uikit",
+  "version": "0.1.0",
+  "description": "React component kitchen sink for documentation and prototyping.",
+  "main": "index.js",
+  "repository": "https://github.com/sdelrio0/uikit",
+  "author": "Sergio del Rio (@sdelrio0)",
+  "license": "MIT"
+}
